@@ -1,0 +1,401 @@
+.helpIcon { width: 16px; height: 16px;}
+
+.leftSideInput input, .leftSideInput select  {
+    width: 250px;
+}
+
+.leftSideInputSearch input, .leftSideInput select  {
+}
+.leftSideInputSmall input, .leftSideInputSmall select  {
+}
+.labelCol  {
+    width: 120px;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+}
+.labelColCentered  {
+    width: 120px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.formLeftSideInput {
+    width: 70%;
+    font-size: 1.0em;
+}
+
+.formRightSideInput {
+    width: 70%;
+    font-size: 1.0em;
+}
+
+.formLabelCol  {
+    width: 30%;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+
+.ui-panelgrid td {
+  border: none;
+    padding: 2px 4px;
+}
+.ui-panelgrid tr {
+  border: none;
+}
+
+.ui-wizard-step-title.custom {
+    float: left;
+    font-size: 12px;
+    margin: 0 3px 0 0;
+    padding: 0.4em;
+}
+
+/* restyling primefaces datatable */
+.ui-datatable-liner {
+    height: 20px;
+    margin: 0;
+    overflow: hidden;
+    padding: 3px;
+}
+
+.ui-datatable.custom {
+    font-size: 0.9em;
+}
+
+.ui-datatable.custom thead th, .ui-datatable.custom tbody td, .ui-datatable.custom tfoot td {
+  white-space: normal;
+  vertical-align: bottom;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 3px 1px;
+}
+
+.ui-datatable.customMid {
+    font-size: 0.9em;
+}
+
+.ui-datatable.customMid thead th, .ui-datatable.customMid tbody td, .ui-datatable.customMid tfoot td {
+  white-space: normal;
+  vertical-align: middle;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 3px 1px;
+}
+
+label.required:after {
+    content:" *";
+    color:red;
+    font-weight:bold;
+}
+
+.ui-widget {
+    font-size: 1.0em;
+}
+
+.ui-datatable .ui-column-filter.filterSmall {
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+.ui-datatable .ui-column-filter.filterLarge {
+    display: block;
+    margin: auto;
+    width: 75px;
+}
+
+.ui-datatable.customLeft tbody td {
+    text-align: left;
+}
+
+.ui-widget-header.custom .ui-inputfield.custom, .ui-widget-content.custom .ui-inputfield.custom {
+    font-size: 0.95em;
+    font-weight: normal;
+}
+
+.ui-widget-header.customMid .ui-inputfield.customMid, .ui-widget-content.customMid .ui-inputfield.customMid {
+    font-size: 0.95em;
+    font-weight: normal;
+}
+
+.racerViewGrid {
+    border: none;
+    width: 99%;
+    background-color:#dedfde;
+    font-family: verdana, arial, helvetica, "sans-serif";
+    color:#000000;
+}
+
+.racerViewLabelCol  {
+    width: 15%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.racerViewCenterLabelCol  {
+    width: 15%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.racerViewInfoCol  {
+    width: 10%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+.racerViewLargeInfoCol  {
+    width: 35%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+.racerViewExtraLargeInfoCol  {
+    width: 85%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+.racerViewMiddle {
+    width: 60%;
+    font-size: 0.9em;
+}
+
+.racerViewRight {
+    width: 20%;
+    font-size: 0.9em;
+    vertical-align: top;
+}
+
+
+.requestTypeLabelCol  {
+    width: 15%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.requestTypeInfoCol  {
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+.requestTypeRightCol  {
+    width: 55%;
+    vertical-align: bottom;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+
+.racerLocationLabelCol  {
+    width: 20%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.racerLocationSecondLabelCol  {
+    width: 10%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.racerLocationExtraLargeInfoCol  {
+    width: 80%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+.racerLocationLargeInfoCol  {
+    width: 55%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+.racerLocationSmallInfoCol  {
+    width: 15%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+
+.racerChangeBoxCol  {
+    width: 5%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.racerChangeLabelCol  {
+    width: 15%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.racerChangeLargeInfoCol  {
+    width: 80%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+.racerReviewLabelCol  {
+    width: 30%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.racerReviewInfoCol  {
+    width: 70%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+.racerReviewSingleInfoCol {
+    width: 99%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+.racerReviewOverall  {
+    width: 50%;
+    vertical-align: top;
+}
+.racerReviewOverallLarge  {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+.racerReviewSmallLabelCol  {
+    width: 20%;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.racerReviewSmallCol  {
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 3px;
+}
+.racerReviewLargeInfoCol  {
+    width: 80%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+.attachCol1  {
+    width: 55%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 1.0em;
+}
+.attachCol2  {
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.9em;
+}
+
+#content li {
+    line-height: 1.5em;
+    margin-left: 5px;
+}
+
+
+.singleRacerViewGrid {
+    border: none;
+    width: 99%;
+    font-family: verdana, arial, helvetica, "sans-serif";
+}
+
+.singleRacerViewLabelCol  {
+    width: 15%;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.singleRacerViewInfoCol  {
+    width: 10%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.8em;
+}
+
+.singleRacerViewLargeInfoCol  {
+    width: 35%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.8em;
+}
+.singleRacerViewExtraLargeInfoCol  {
+    width: 85%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 0.8em;
+}
+
+.singleRacerViewMiddle {
+    width: 60%;
+    font-size: 0.9em;
+}
+
+.singleRacerViewRight {
+    width: 20%;
+    font-size: 0.9em;
+    vertical-align: top;
+}

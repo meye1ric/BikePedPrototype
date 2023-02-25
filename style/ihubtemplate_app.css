@@ -1,0 +1,289 @@
+/* May 2009 Author: Brian Hayes */
+/* CSS RESET */
+body{padding:0;margin:0;font-size:13px;*font-size:small;*font:x-small;}
+h1,h2,h3,h4,h5,h6,ul,li,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style: normal;}
+table{font-size:inherit;}
+ul{list-style:none;}
+li{margin-bottom:5px;}
+img{border:0;}
+p{margin: 0 0 1em 0; }
+
+/* Common Rules */
+html, body {font-family: verdana, arial, helvetica, "sans-serif"; 
+  height:100%;
+  line-height: 1.5em;
+}
+
+body {background-color:#343741;}
+
+h1{
+  font-size: 1.15em;
+  font-weight: bold;
+  color:#0A639E;
+  padding-bottom: 1em;
+}
+h2{ font-size:1.05em; font-weight: bold; padding-bottom: 1em;}
+h3{ font-size:.99em; font-weight: bold; padding-bottom: 1em;}
+ul{padding-bottom:1em;}
+hr{ border: 1px solid #000000; height: 1px; width: 100%;}
+strong { font-weight:bold; }
+.clear {clear:both;}
+
+/* Wrapper tags*/
+
+#wrapper {
+	  width: 1600px;
+}
+
+#wrapper_01 {
+/*   background: background-color:#343741; */
+  width: 1000px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -80px;
+}
+#wrapper_dialog_01 {
+  background: white;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -80px;
+}
+#wrapper_02 {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+/*   background: url(http://ihub/resources_10/images/bg03.jpg) repeat-y left top; */
+  width: 95%;
+  margin:0 auto;
+}
+#wrapper_03 {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  background: url(http://ihub/resources_10/images/bg04.jpg) repeat-x left top;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+#wrapper_04{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  background: url(http://ihub/resources_10/images/related_topics_bg.gif) repeat-y right;
+}
+#wrapper_05{
+  overflow: hidden;
+  background-image: url(http://ihub/resources_10/images/left_column.gif);
+  background-repeat: repeat-y;
+  padding: 0 0 30px 0;
+}
+
+/* Header Area */
+#jump{
+  height:0;
+}
+img#jump{
+  /* Section 508 �1194.22 (o) compliance
+  A method shall be provided that permits users 
+  to skip repetitive navigation links. */
+  left: 0px;
+  position:absolute;
+  top: 0px;
+  z-index: 100; 
+}
+#header {
+  height:122px;
+  background-image: url(http://ihub/resources_10/images/ihub_logo.png);
+  background-repeat: repeat-y;
+  background-color:#FFF;
+  border-bottom: 1px solid;
+  margin-left: 10px;
+  width: 100%;
+}
+#ihub_logo, #banner_wrapper{float:left; height:100px;}
+
+#ihub_logo{ 
+  width:147px; 
+  height:103px;   
+}
+#ihub_logo_link{
+  background-image: url(http://ihub/resources_10/images/ihub_sprite.png);
+  width:147px; 
+  height:103px; 
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  display:block;
+}
+#banner_wrapper {font-size: 0.85em; width:780px;}
+#banner {
+  padding: 10px 0 0 20px;
+  height:90px;
+  display:block;  
+  width:100%;
+}
+#banner h1 { width:380px; color:#000}
+#banner_links { padding: 10px 0;font-weight: bold; }
+#banner_links li {
+  /*background: url(http://ihub/resources/images/pipe-y.gif) no-repeat 0px 50%;*/
+  border-left: 1px red solid; 
+  display: inline;
+  padding-left: 5px;
+}
+#banner a:link, #banner a:visited{  color:#000; text-decoration:none;}
+#banner a:hover, #banner a:active {color:#FF0000;text-decoration:underline;}
+#banner h1 {font-size: 1.9em; font-weight: normal; line-height: 120%;}
+#your_destination {
+  position:absolute;
+  height: 32px;
+  width: 263px;
+  background-image: url(http://ihub/resources_10./images/ihub_sprite.png);
+  background-position: 0px -124px;
+  background-repeat: no-repeat;
+  right: 90px;
+  bottom: 0px;  
+}
+  
+#searchBox{float: right; width: 350px;}
+#searchBox label{font-weight: bold;}
+#ihub_search {margin:0;}
+
+/* Middle Area */
+
+#leftnav{
+  background-color: #007DC5;  
+  float:left;
+  width: 151px;
+  padding: 0 0 0 0px; 
+  border-top: none;
+  border-right: 1px solid;  
+  border-left: 1px solid; 
+  border-color: #003366;  
+}
+#ihub_mndot_logo {
+  float: left;
+  display: block; 
+  height: 100px;
+  width: 100px;
+  margin:  20px 0 0 25px;
+  padding-bottom: 20px;
+  background-image: url(http://ihub/resources_10/images/ihub_sprite.png);
+  background-position: -150px 0px;
+  background-repeat: no-repeat;
+}
+
+#content_wrapper{ 
+  float:left; 
+  background:white;
+  margin-left:10px; 
+  padding: 10px 20px 0 0;
+  width: 95%;
+  height:800px;
+  
+}
+#tab_wrapper{ 
+  background-color:white;
+  float: left;
+  margin-left: 10px;  
+  width: 1060px;  
+}
+
+#content{ 
+  width:99%;
+  height: 550px;  
+/*   padding: 15px; */
+}
+#content_wrapper a:link, #content_wrapper a:visited{color:#003366;text-decoration:none;}
+#content_wrapper a:hover, #content_wrapper a:active {color:#FF0000;text-decoration:none;}
+
+
+#messages{  
+  width:75%;  
+}
+
+#related_topics{
+  position: absolute;
+        top: 25%;
+        left: 74%;
+  margin: 18px 0 0 0;
+  padding: 0 0 20px 20px;
+        width: 150px;
+  color:#999999;
+  font-weight:bold;
+  font-size:1em;  
+}
+#related_topics li {  
+  padding-left:0px;
+  position:relative;
+  background: url(http://ihub/resources/images/bullet_arrow.gif) no-repeat 0px 3px;
+  padding-left: 8px;
+
+}
+#related_topics li a{ 
+  padding-left:11px;
+  display:inline-block; 
+  
+}
+
+
+#related_topics ul li {list-style:none; line-height:1.5em; margin:0px;}
+#related_topics h3 {color:#0A639E; font-size:1.15em; font-weight:bold; margin-bottom:-0.05em;}
+
+/* Footer */
+#last_updated hr {text-align: left; width: 798px;}
+
+#footer{  
+  height:80px;
+  /* background-image: url(http://ihub/resources_10/images/bg05.jpg); */
+  background-repeat: repeat-y;  
+  background-color:#FFF;
+  width: 1060px;
+  margin-left: 10px;  
+  border-top: 1px solid;
+}
+
+#template_footer{ 
+  font-size: 0.9em;
+  margin: 0 auto; 
+  text-align:center;
+}
+
+#push{height:80px; clear: both;
+background-image:url("http://ihub/resources_10/images/left_column.gif");
+background-repeat:repeat-y;}
+
+/* Page Elements */
+
+table.data {width:100%; vertical-align: top; text-align:left;}
+table.narrow {width: 75%;}
+table.data th, table.data td {border-top:1px solid #BFCCD9; padding:5px;}
+table.data th {background-color: #eaeef2;}
+table.data td {font-size:0.85em;}
+
+.two_column {
+  float:left;
+  width:37%;
+  padding: 3px;
+}
+.border_orange { border:1px solid #FD8124 }
+.border_blue { border:1px solid #007DC5}
+
+.photo {padding: 6px; border: solid 1px;}
+
+.header-image{background-color:#003865;overflow:hidden;margin:0;padding:0;width:100%;margin-left: 10px;}
+#mndot{float:left;width:250px;margin-top:22px;margin-left:40px;padding:0 !important;}
+#mndot a,#mndot img{margin:0 !important;padding:0 !important;max-width:100% !important;}
+.header-divider{background-color:#72BF44;overflow:hidden;margin:0;padding:0;width:1060px;margin-left: 10px;height:15px;}
+
+
+nav, nav ul, nav ol{margin:0;padding:0;}
+nav{padding:0;text-align:right;border:none;overflow:hidden;width:1060px;margin-left: 10px;background-color:#72bf44;}
+nav a:link, header nav a:visited{text-decoration:none;color:#1c3011;font-weight:700;font-size:1.1em;}
+nav #general-links ul{margin:0 4% 0 0;padding:0;list-style-type:none;overflow:hidden;clear:both;}
+nav #general-links li{display:inline;text-align:right;font-size:.85em;margin:0;padding:0;list-style:none;list-style-image:none;list-style-type:none;overflow:hidden;}
+nav #general-links li.clear-right{clear:right;}
+nav #general-links li a{display:block;float:right;padding:8px;margin:0;line-height:1.4em;}
+nav #general-links li a:hover, nav #general-links li a:active, nav #general-links li a:focus{text-decoration:underline;}
+nav #general-links span a:link{display:block;position:absolute;left:-999px;}
+span.skip{position:absolute;left:-9999px;}

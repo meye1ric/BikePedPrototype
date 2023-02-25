@@ -1,0 +1,46 @@
+/*
+Application Template Version 2
+
+Author: Dola1lan
+Date: 12/30/2009
+
+This css provides the style for the application template. Version 2 makes more room for the versionDisplay
+*/
+.appInfo {
+  border:3 solid yellow;
+  float:right;
+  font-size:11px;
+  height:50px;
+  margin-bottom:0;
+  padding:0px;
+  width:200px;
+}
+
+/* .appInfo hr { */
+/*   color: #0066CC; */
+/* } */
+
+.button {
+  margin: 5px;
+  background-color:#cccccc;
+  border:solid 1px #666666;
+  padding-left:2px;
+  padding-right:2px;
+  color:gray;
+  font-size:13px;
+  text-decoration:none;
+  font-weight:bold;
+  cursor: pointer;
+  height:20px;
+}
+
+a:hover.button {
+  background-color:#999999;
+  text-decoration:none;
+  color:white;
+}
+
+/* .versionDisplay { */
+/*   width: 100%; */
+/*   color: #003366; */
+/* } */

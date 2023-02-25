@@ -1,0 +1,184 @@
+/* 
+    Created on : June 1, 2014
+    Author     : rickmeyer01@yahoo.com
+*/
+
+/* body { */
+/*   margin:20px; */
+/*   font-family: Georgia, serif; */
+/*   font-size: 10pt; */
+/*   font-style: italic; */
+/*   background-image:url('../img/bg_bottom_gradient.png'); */
+/*   background-repeat: repeat-x; */
+/*   width: 1600px; */
+/*   height: 1000px; */
+/* } */
+
+/* #banner { */
+/*   height:40px; */
+/* } */
+
+/* #bannerTitle { */
+/*   margin-top: 20px; */
+/*   text-align: center; */
+/* } */
+
+/* #bannerTitle label { */
+/*   color: black; */
+/*   font-size : 16pt; */
+/*   font-style: italic; */
+/* } */
+
+/* #bannerSub { */
+/*   margin-top: 10px; */
+/*   text-align: center; */
+/* } */
+
+/* #bannerSub label { */
+/*   color: brown; */
+/*   font-size : 10pt; */
+/*   font-style: italic; */
+/* } */
+
+#map {
+  width: 650px;
+  height: 700px;
+  background-color: white;
+  float: left;
+  margin: 10px;
+/*   border: 1px black solid; */
+}
+
+.menuItem {
+  float:left;
+  width:180px;
+  border-right:1px solid black;
+  text-align:center;
+  padding-top:3px;
+}
+
+.menuItem2 {
+  float:left;
+  width:100px;
+  border-right:1px solid black;
+  text-align:center;
+  padding-top:3px;
+}
+
+.selectedMenuItem {
+  float:left;
+  width:180px;
+  border-right:1px solid black;
+  text-align:center;
+  padding-top:3px;
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.labels {
+  color: darkslateblue;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.tooltip {
+border: solid 1px grey;
+background-color: white;
+padding: 3px;
+}
+
+.button {
+  padding: 10px;
+/*   font-size: 12px; */
+  text-align: center;
+  line-height:0;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 10px;
+/*   box-shadow: 0 9px #999; */
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+/*   box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+#sendNoticeIcon {
+	cursor: pointer;
+}
+
+#sendNoticeLabel {
+  cursor: pointer;
+}
+
+#menuArea1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#menuArea1 label {
+  font-size : 12pt;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+#mainContent {
+  margin: 10px;
+}
+
+#messageArea {
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#message {
+  font-weight: bold;
+}
+
+#messageArea label {
+  font-size : 10pt;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.subcontainer {
+  margin-top:50px;
+  margin-left:30px;
+  padding:20px;
+  width:1300px;
+  float:left;
+/*   border:1px solid grey; */
+/*   border-radius: 25px; */
+}
+
+.subcontainerTitle {
+  float:left;
+  font-weight:bold;
+}
+
+/* Image in the first column to indicate expand*/
+td.details-control { 
+  background: url('../img/expand.png') no-repeat center;
+  background-size: 40px 30px;
+  cursor: pointer;
+}
+
+tr.shown td.details-control {
+  background: url('../img/expand.png') no-repeat center;
+  background-size: 40px 30px;
+}
+
+td.expand_icon {
+  background: url('../img/expand.png') no-repeat center center;
+  background-size: 40px 30px;
+  cursor: pointer;
+}
+    
